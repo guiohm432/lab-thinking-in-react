@@ -26,3 +26,46 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.style-input{
+  width: 90vw;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+table {
+  width :90vw;
+  /* height: 80vh; */
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+th {
+  background-color: lightgray;
+  height: 10vh;
+}
+
+tr {
+  border : 1px solid black;
+  background-color: lightblue;
+  height:10vh;
+}
+
+.searchbar{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30vh;
+}
+
+.searchbar label {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.red {
+  color : red
+}
